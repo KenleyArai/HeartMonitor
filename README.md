@@ -1,9 +1,11 @@
 Run the following:
 
-`react-native upgrade`
-`react-native link rn-apple-healthkit`
-`react-native link react-native-svg`
-`react-native run-ios`
+```
+$ react-native upgrade
+$ react-native link rn-apple-healthkit
+$ react-native link react-native-svg
+$ react-native run-ios
+```
 
 # Containers
 
@@ -11,7 +13,7 @@ A container does data fetching and then renders its corresponding sub-component.
 
 ### Finsihed
 
-* [] App.js
+* [ ] App.js
 
 # Components
 
@@ -25,5 +27,5 @@ A container does data fetching and then renders its corresponding sub-component.
 
 ### Finished
 
-* [] OutputView
-* [] InputView
+* [ ] OutputView
+* [ ] InputView
