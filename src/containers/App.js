@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import { Platform, StyleSheet, Text, View } from "react-native";
+
+import OutputView from "../components/OutputView";
+import InputView from "../components/InputView";
 
 const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
@@ -11,7 +15,8 @@ export default class App extends Component<{}> {
   render() {
     return (
       <View>
-        <Text> Hi</Text>
+        <OutputView />
+        <InputView />
       </View>
     );
   }
