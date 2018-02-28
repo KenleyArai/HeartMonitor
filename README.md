@@ -2,7 +2,7 @@
 
 A container does data fetching and then renders its corresponding sub-component.
 
-### Finsihed
+### Finsihed Containers
 
 * [ ] App.js
 
@@ -10,13 +10,21 @@ A container does data fetching and then renders its corresponding sub-component.
 
 ## OutputView
 
-* TBD
+* Graph
+* X-Axis Bar
+* Y-Axis Bar
 
 ## InputView
 
-* TBD
+* Keyboard Input
+* Options Input
 
-### Finished
+### Finished Components
 
 * [ ] OutputView
+  * [ ] Keyboard Input
+  * [ ] Options Input
 * [ ] InputView
+  * [ ] Graph
+  * [ ] X-Axis Bar
+  * [ ] Y-Axis Bar
