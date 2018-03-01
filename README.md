@@ -1,30 +1,27 @@
-# Containers
+# Prerequisites
 
-A container does data fetching and then renders its corresponding sub-component.
+Prerequisites are the same as using `create-react-native-cli`
 
-### Finsihed Containers
+# Install
 
-* [ ] App.js
+```
+yarn install
+```
 
-# Components
+# Built with
 
-## OutputView
+* [Ramda](http://ramdajs.com/)
+* [React](https://reactjs.org/)
+* [React Native](http://facebook.github.io/react-native/)
 
-* Graph
-* X-Axis Bar
-* Y-Axis Bar
+# Releases
 
-## InputView
-
-* Keyboard Input
-* Options Input
-
-### Finished Components
-
-* [ ] OutputView
-  * [ ] Keyboard Input
-  * [ ] Options Input
-* [ ] InputView
-  * [ ] Graph
-  * [ ] X-Axis Bar
-  * [ ] Y-Axis Bar
+* [ ] 0.1 Minimum Viable Product
+  * [ ] InputView
+    * [ ] Button
+  * [ ] OutputView
+    * [ ] BPM Graph
+    * [ ] X-Axis Graph
+    * [ ] Y-Axis Graph
+  * [ ] DataModel
+    * [ ] GetBPM
