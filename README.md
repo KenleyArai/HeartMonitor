@@ -16,12 +16,4 @@ yarn install
 
 # Releases
 
-* [ ] 0.1 Minimum Viable Product
-  * [ ] InputView
-    * [ ] Button
-  * [ ] OutputView
-    * [ ] BPM Graph
-    * [ ] X-Axis Graph
-    * [ ] Y-Axis Graph
-  * [ ] DataModel
-    * [ ] GetBPM
+* [ ] [0.1 Minimum Viable Product](https://github.com/KenleyArai/HeartMonitor/wiki/Releases#minimum-viable-product)
