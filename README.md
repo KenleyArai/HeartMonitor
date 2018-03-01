@@ -8,6 +8,12 @@ Prerequisites are the same as using `create-react-native-cli`
 yarn install
 ```
 
+# Running Tests
+
+```
+yarn test
+```
+
 # Built with
 
 * [Ramda](http://ramdajs.com/)
