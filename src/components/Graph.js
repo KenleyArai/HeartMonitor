@@ -27,9 +27,8 @@ export default class Graph extends Component<{}> {
     let { heart_samples } = { ...this.props };
     return (
       <AreaChart
-        style={{ height: 200 }}
+        style={{ height: 250 }}
         data={heart_samples.map(sample => sample["value"])}
-        contentInset={{ top: 30, bottom: 30 }}
         curve={shape.curveNatural}
         svg={{ fill: "rgba(134, 65, 244, 0.8)" }}
       />

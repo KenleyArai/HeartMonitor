@@ -29,9 +29,9 @@ export default class OutputView extends Component<{}> {
 
     return (
       <View>
-        <AxisBar is_vertical={true} />
+        <AxisBar data={heart_samples} is_vertical={true} />
         <Graph heart_samples={heart_samples} />
-        <AxisBar />
+        <AxisBar data={heart_samples} />
       </View>
     );
   }
