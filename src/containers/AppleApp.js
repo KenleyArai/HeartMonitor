@@ -65,11 +65,13 @@ export default class App extends Component<{}> {
   }
 
   render() {
+    let { counter, loaded, heart_samples } = { ...this.state };
+
     return (
       <View>
-        <Text>{this.state.counter}</Text>
-        {this.state.loaded ? (
-          <HeartPage heart_samples={this.state.heart_samples} />
+        <Text>{counter}</Text>
+        {loaded ? (
+          <HeartPage heart_samples={heart_samples} />
         ) : (
           <Text>Loading</Text>
         )}

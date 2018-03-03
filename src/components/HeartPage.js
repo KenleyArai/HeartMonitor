@@ -25,12 +25,14 @@ export default class HeartPage extends Component<{}> {
   };
 
   render() {
+    let { heart_samples } = { ...this.props };
+
     return (
       <View>
         <OutputView />
-        {this.props.heart_samples.map(result => (
-          <Text key={result["startDate"]}>
-            {"BPM:" + result["value"] + "\t\tDate:" + result["startDate"]}
+        {heart_samples.map(sample => (
+          <Text key={sample["startDate"]}>
+            {"BPM:" + sample["value"] + "\t\tDate:" + sample["startDate"]}
           </Text>
         ))}
         <InputView />
