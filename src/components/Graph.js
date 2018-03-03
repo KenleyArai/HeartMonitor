@@ -1,11 +1,8 @@
 import React, { Component } from "react";
-import { Text, View } from "react-native";
+import { View, Text } from "react-native";
 import PropTypes from "prop-types";
 
-import Graph from "./Graph";
-import AxisBar from "./AxisBar";
-
-export default class OutputView extends Component<{}> {
+export default class Graph extends Component<{}> {
   static propTypes = {
     heart_samples: PropTypes.arrayOf(
       PropTypes.shape({
@@ -18,9 +15,7 @@ export default class OutputView extends Component<{}> {
   render() {
     return (
       <View>
-        <AxisBar is_vertical={true} />
-        <Graph heart_samples={this.props.heart_samples} />
-        <AxisBar />
+        <Text>Graph of BPM</Text>
       </View>
     );
   }
