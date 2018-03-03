@@ -58,7 +58,7 @@ export default class App extends Component<{}> {
         if (err) {
           return;
         }
-        this.setState({ heart_samples: results, loaded: true });
+        this.setState({ heart_samples: results.reverse(), loaded: true });
       }
     );
     this.setState({ counter: this.state.counter + 1 });
