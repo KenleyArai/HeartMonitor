@@ -18,7 +18,8 @@ exports[`renders correctly 1`] = `
         allowFontScaling={true}
         ellipsizeMode="tail"
       >
-        Graph of BPM
+        Number of Samples: 
+        1
       </Text>
     </View>
     <View>
@@ -31,13 +32,6 @@ exports[`renders correctly 1`] = `
       </Text>
     </View>
   </View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
-    BPM:80		Date:2018-03-02T06:12:54.536-0800
-  </Text>
   <View>
     <View>
       <Text
