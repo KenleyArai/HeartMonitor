@@ -15,6 +15,6 @@ export default class EmotionalButton extends Component<{}> {
 
   render() {
     let { level, title } = { ...this.props };
-    return <Button title={title} />;
+    return <Button onPress={() => undefined} title={title} />;
   }
 }

@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { View, Text } from "react-native";
 import PropTypes from "prop-types";
 
+import { AreaChart } from "react-native-svg-charts";
+import * as shape from "d3-shape";
+
 export default class Graph extends Component<{}> {
   static propTypes = {
     heart_samples: PropTypes.arrayOf(
@@ -23,9 +26,13 @@ export default class Graph extends Component<{}> {
   render() {
     let { heart_samples } = { ...this.props };
     return (
-      <View>
-        <Text>Number of Samples: {heart_samples.length}</Text>
-      </View>
+      <AreaChart
+        style={{ height: 200 }}
+        data={heart_samples.map(sample => sample["value"])}
+        contentInset={{ top: 30, bottom: 30 }}
+        curve={shape.curveNatural}
+        svg={{ fill: "rgba(134, 65, 244, 0.8)" }}
+      />
     );
   }
 }

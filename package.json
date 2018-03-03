@@ -7,10 +7,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "d3-shape": "^1.2.0",
     "ramda": "^0.25.0",
     "react": "16.2.0",
     "react-native": "0.52.0",
     "react-native-pathjs-charts": "0.0.33",
+    "react-native-svg-charts": "^3.0.2",
     "rn-apple-healthkit": "^0.6.1"
   },
   "devDependencies": {

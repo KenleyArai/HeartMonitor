@@ -12,15 +12,159 @@ exports[`renders correctly 1`] = `
         Bar
       </Text>
     </View>
-    <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
+    <View
+      style={
+        Object {
+          "height": 200,
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
       >
-        Number of Samples: 
-        1
-      </Text>
+        <RNSVGSvgView
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "flex": 1,
+              },
+              false,
+              undefined,
+            ]
+          }
+        >
+          <RNSVGGroup
+            fill={
+              Array [
+                0,
+                0,
+                0,
+                0,
+                1,
+              ]
+            }
+            fillOpacity={1}
+            fillRule={1}
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+            opacity={1}
+            propList={Array []}
+            stroke={null}
+            strokeDasharray={null}
+            strokeDashoffset={null}
+            strokeLinecap={0}
+            strokeLinejoin={0}
+            strokeMiterlimit={4}
+            strokeOpacity={1}
+            strokeWidth={null}
+          >
+            <RNSVGLine
+              fill={
+                Array [
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                ]
+              }
+              fillOpacity={1}
+              fillRule={1}
+              matrix={
+                Array [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              opacity={1}
+              propList={
+                Array [
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              stroke={
+                Array [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.2,
+                ]
+              }
+              strokeDasharray={null}
+              strokeDashoffset={null}
+              strokeLinecap={0}
+              strokeLinejoin={0}
+              strokeMiterlimit={4}
+              strokeOpacity={1}
+              strokeWidth={1}
+              x1="0%"
+              x2="100%"
+              y1="-30"
+              y2="-30"
+            />
+          </RNSVGGroup>
+          <RNSVGPath
+            d="M0,-30L0,-30Z"
+            fill={
+              Array [
+                0,
+                0.5254901960784314,
+                0.2549019607843137,
+                0.9568627450980393,
+                0.8,
+              ]
+            }
+            fillOpacity={1}
+            fillRule={1}
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+            opacity={1}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+            stroke={null}
+            strokeDasharray={null}
+            strokeDashoffset={null}
+            strokeLinecap={0}
+            strokeLinejoin={0}
+            strokeMiterlimit={4}
+            strokeOpacity={1}
+            strokeWidth={null}
+          />
+        </RNSVGSvgView>
+      </View>
     </View>
     <View>
       <Text
