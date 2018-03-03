@@ -3,19 +3,58 @@
 exports[`renders correctly 1`] = `
 <View>
   <View>
-    <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
+    <View
+      style={
+        Array [
+          undefined,
+        ]
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "flexGrow": 1,
+          }
+        }
       >
-        Bar
-      </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "transparent",
+              "fontSize": 10,
+            }
+          }
+        >
+          80
+        </Text>
+        <RNSVGSvgView
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              false,
+              undefined,
+            ]
+          }
+        />
+      </View>
     </View>
     <View
       style={
         Object {
-          "height": 200,
+          "height": 250,
         }
       }
     >
@@ -121,12 +160,12 @@ exports[`renders correctly 1`] = `
               strokeWidth={1}
               x1="0%"
               x2="100%"
-              y1="-30"
-              y2="-30"
+              y1="0"
+              y2="0"
             />
           </RNSVGGroup>
           <RNSVGPath
-            d="M0,-30L0,-30Z"
+            d="M0,0L0,0Z"
             fill={
               Array [
                 0,
@@ -166,14 +205,53 @@ exports[`renders correctly 1`] = `
         </RNSVGSvgView>
       </View>
     </View>
-    <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
+    <View
+      style={
+        Object {
+          "marginHorizontal": -10,
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "flexGrow": 1,
+          }
+        }
       >
-        VerticalBar
-      </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "transparent",
+              "fontSize": undefined,
+            }
+          }
+        >
+          0
+        </Text>
+        <RNSVGSvgView
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              false,
+              undefined,
+            ]
+          }
+        />
+      </View>
     </View>
   </View>
   <View>

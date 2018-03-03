@@ -4,7 +4,7 @@ exports[`renders correctly 1`] = `
 <View
   style={
     Object {
-      "height": 200,
+      "height": 250,
     }
   }
 >
@@ -110,12 +110,12 @@ exports[`renders correctly 1`] = `
           strokeWidth={1}
           x1="0%"
           x2="100%"
-          y1="-30"
-          y2="-30"
+          y1="0"
+          y2="0"
         />
       </RNSVGGroup>
       <RNSVGPath
-        d="M0,-30L0,-30Z"
+        d="M0,0L0,0Z"
         fill={
           Array [
             0,
