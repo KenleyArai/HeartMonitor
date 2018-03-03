@@ -29,12 +29,7 @@ export default class HeartPage extends Component<{}> {
 
     return (
       <View>
-        <OutputView />
-        {heart_samples.map(sample => (
-          <Text key={sample["startDate"]}>
-            {"BPM:" + sample["value"] + "\t\tDate:" + sample["startDate"]}
-          </Text>
-        ))}
+        <OutputView heart_samples={heart_samples} />
         <InputView />
       </View>
     );
