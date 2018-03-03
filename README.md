@@ -5,13 +5,19 @@ Prerequisites are the same as using `create-react-native-cli`
 # Install
 
 ```
-yarn install
+$ yarn install
 ```
 
 # Running Tests
 
 ```
-yarn test
+$ yarn test
+```
+
+# Running
+
+```
+$ react-native run-ios
 ```
 
 # Built with

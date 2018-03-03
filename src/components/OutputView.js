@@ -3,6 +3,7 @@ import { Text, View } from "react-native";
 import PropTypes from "prop-types";
 
 import Graph from "./Graph";
+import AxisBar from "./AxisBar";
 
 export default class OutputView extends Component<{}> {
   static propTypes = {
@@ -14,16 +15,23 @@ export default class OutputView extends Component<{}> {
     )
   };
 
+  static defaultProps = {
+    heart_samples: [
+      {
+        value: -1,
+        startDate: "2018-03-02T06:12:54.536-0800"
+      }
+    ]
+  };
+
   render() {
+    let { heart_samples } = { ...this.props };
+
     return (
       <View>
-        <View>
-          <Text>X-Axis Bar</Text>
-        </View>
-        <Graph heart_samples={this.props.heart_samples} />
-        <View>
-          <Text>Y-Axis Bar</Text>
-        </View>
+        <AxisBar is_vertical={true} />
+        <Graph heart_samples={heart_samples} />
+        <AxisBar />
       </View>
     );
   }
